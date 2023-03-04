@@ -6,15 +6,15 @@ import { BsCurrencyDollar } from 'react-icons/bs';
 
 const Services = () => {
   return (
-    <div className='text-gray-50 bg-blue-900 w-full justify-between flex'>
+    <div className='text-gray-50 bg-blue-900 w-full justify-between py-6 flex'>
       <div>
-        <TfiShoppingCartFull/>
+        {/* <TfiShoppingCartFull/> */}
       </div>
       <div>
-        <MdSupportAgent/>
+        {/* <MdSupportAgent/> */}
       </div>
       <div>
-        <BsCurrencyDollar/>
+        {/* <BsCurrencyDollar/> */}
       </div>
     </div>
   )
