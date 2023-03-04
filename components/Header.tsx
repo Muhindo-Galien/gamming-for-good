@@ -54,7 +54,7 @@ const Header = () => {
                 </div>
                 {menuOptions.map((item:{name:string,links_to:string},i:number)=>{
                 return(
-                <Link href={item.links_to}> 
+                <Link href={item.links_to} key={i+1}> 
                   <li 
                   onClick={()=>{setActive(i+1); handleOpened()}}
                   className={`py-1 cursor-pointer ${active === i+1?'border-b-2 text-gray-50':'text-gray-50 font-light  '} `}>
