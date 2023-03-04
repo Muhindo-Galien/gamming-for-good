@@ -3,17 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  body{
-    @apply 
-  }
-} */
-
 body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
 .image_hero{
-  border-radius: 2rem;
+  object-fit: cover !important;
   height: 500px !important;
 }
+
