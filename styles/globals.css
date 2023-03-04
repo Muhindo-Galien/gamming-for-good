@@ -13,3 +13,7 @@ body{
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
+.image_hero{
+  border-radius: 2rem;
+  height: 500px !important;
+}

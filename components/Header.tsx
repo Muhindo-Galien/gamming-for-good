@@ -26,7 +26,7 @@ const Header = () => {
 
   
   return (
-    <div className=" sm:px-8 z-30 mx-auto w-full fixed shadow-sm text-gray-800">
+    <div className=" sm:px-8 z-30 mx-auto w-full fixed bg-[#fff] text-gray-800">
         <div className=' flex items-center justify-between py-4 sm:mx-0 mx-4 '>
           <Link href={'/'}>
             <Image src={logo} alt="logo" width={120} height={80} />
