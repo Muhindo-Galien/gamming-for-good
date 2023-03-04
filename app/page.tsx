@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import Section from '@/components/Products/Section';
 import React from 'react';
 
 type pageProps = {
